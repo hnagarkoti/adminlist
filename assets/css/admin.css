@@ -53,6 +53,16 @@
 .ui-jqgrid .ui-jqgrid-bdiv{
     height: 100% !important;
 }
+.view_btn {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    background: #cecece;
+    padding: 3px 0px;
+    color: #424242;
+    text-transform: uppercase;
+    width: auto;text-decoration: underline;
+}
 /**/
 /*footer*/
 .footer .footer-inner .footer-content{
@@ -69,3 +79,12 @@
 .bigger-120{
     color: #c1c1c1;font-size: 14px !important;
 }*/
+/*material*/
+.tabel_title{
+    height: 40px;
+    line-height: 24px;
+    color: #FFF;
+    background: #307ECC;
+    padding: 8px;
+    font-size: 15px;margin: 0;
+}
