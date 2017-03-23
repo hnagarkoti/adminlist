@@ -50,12 +50,16 @@
 .ui-jqgrid .ui-jqgrid-titlebar-close{
     display: none;
 }
+.ui-jqgrid .ui-jqgrid-bdiv{
+    height: 100% !important;
+}
 /**/
 /*footer*/
 .footer .footer-inner .footer-content{
-    border: none;position: static;
+    border: none;
+    /*position: static;*/
 }
-.footer{
+/*.footer{
     float: left;width: 100%;height: auto;background-color: #535353;
     color: #ffffff;padding: 0px;
 }
@@ -64,4 +68,4 @@
 }
 .bigger-120{
     color: #c1c1c1;font-size: 14px !important;
-}
+}*/
