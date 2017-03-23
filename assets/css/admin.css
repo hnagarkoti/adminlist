@@ -3,7 +3,16 @@
     font-size: 12px;
 }
 .navbar{
-    background: #016bb9;
+    background: #016bb9;min-height: 50px;
+}
+.navbar-brand{
+    padding: 12px 10px !important;
+}
+.ace-nav>li{
+    line-height: 50px;height: 50px;
+}
+.navbar-container{
+    padding-right: 0px;
 }
 /**/
 /*side menu*/
@@ -38,8 +47,21 @@
 .ui-jqgrid .ui-jqgrid-btable{
     border: none;
 }
+.ui-jqgrid .ui-jqgrid-titlebar-close{
+    display: none;
+}
 /**/
 /*footer*/
 .footer .footer-inner .footer-content{
-    border: none;
+    border: none;position: static;
+}
+.footer{
+    float: left;width: 100%;height: auto;background-color: #535353;
+    color: #ffffff;padding: 0px;
+}
+.footer .footer-inner{
+    position: static;float: left;width: 100%;height: auto;
+}
+.bigger-120{
+    color: #c1c1c1;font-size: 14px !important;
 }
