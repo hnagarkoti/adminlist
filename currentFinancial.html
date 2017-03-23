@@ -49,7 +49,7 @@
 	<body class="no-skin">
 		<div id="navbar" class="navbar navbar-default          ace-save-state">
 			<div class="navbar-container ace-save-state" id="navbar-container">
-				<button type="button" class="navbar-toggle menu-toggler pull-left" 
+				<button type="button" class="navbar-toggle menu-toggler pull-left"
 				id="menu-toggler" data-target="#sidebar">
 					<span class="sr-only">Toggle sidebar</span>
 
@@ -64,7 +64,7 @@
 					<a href="index.html" class="navbar-brand">
 						<small>
 							<!--<i class="fa fa-leaf"></i>-->
-							Ads2Publish.com 
+							Ads2Publish.com
 							<small class="sub_txt">Book Newspaper Classified Ads Online.</small>
 						</small>
 					</a>
@@ -1042,7 +1042,7 @@
 				<div class="footer-inner">
 					<div class="footer-content">
 						<span class="bigger-120">
-							Copyright @ <span class="blue bolder">Ads2Publish.com </span>, 
+							Copyright @ <span class="blue bolder">Ads2Publish.com </span>,
 							All Rights Reserved.
 						</span>
 
@@ -1097,7 +1097,7 @@
 		<script type="text/javascript">
 			var grid_data =
 			[
-				{id:"1",name:"Abhay Kumar",note:"Sec-5 Dwarka",stock:"Yes",ship:"FedEx", sdate:"1/2/2017",cname:"3/5/2017", address:"ram",dop:"abc", dispatch:"",detail:"View"},
+				{id:"1",name:"Abhay Kumar",note:"Sec-5 Dwarka",stock:"Yes",ship:"FedEx", sdate:"1/2/2017",cname:"3/5/2017", address:"ram",dop:"abc", dispatch:"",detail:"<a href='materialRequirement.html'>View</a>"},
 				{id:"2",name:"Unique Builder",note:"5Vasant Vihar",stock:"Yes",ship:"FedEx", sdate:"3/3/2017",cname:"7/6/2017", address:"vijay",dop:"xyz", dispatch:"",detail:""},
 				{id:"3",name:"ABC Builder",note:"Abc Enclave",stock:"Yes",ship:"FedEx", sdate:"21-3-2017",cname:"14/7/2017", address:"sanjay",dop:"def", dispatch:"",detail:""},
 				{id:"4",name:"Rama Builder",note:"Rama Enclave",stock:"Yes",ship:"FedEx", sdate:"21-3-2017",cname:"26/8/2017", address:"sanjay",dop:"def", dispatch:"",detail:""},
@@ -1117,7 +1117,7 @@
 				{id:"18",name:"Sohan",note:"Abc Enclave",stock:"Yes",ship:"FedEx", sdate:"21-3-2017",cname:"3/22/2017", address:"sanjay",dop:"def", dispatch:"",detail:""},
 				{id:"19",name:"david",note:"Rama Enclave",stock:"Yes",ship:"FedEx", sdate:"21-3-2017",cname:"3/23/2017", address:"sanjay",dop:"def", dispatch:"",detail:""},
 				{id:"20",name:"vipin",note:"Anand vihar",stock:"Yes",ship:"FedEx", sdate:"21-3-2017",cname:"3/24/2017", address:"sanjay",dop:"def", dispatch:"",detail:""},
-				{id:"21",name:"Ajay Sharma",note:"",stock:"Yes",ship:"FedEx", sdate:"21-3-2017",cname:"3/25/2017", address:"sanjay",dop:"def", dispatch:"",detail:""}			
+				{id:"21",name:"Ajay Sharma",note:"",stock:"Yes",ship:"FedEx", sdate:"21-3-2017",cname:"3/25/2017", address:"sanjay",dop:"def", dispatch:"",detail:""}
 			];
 
 			var subgrid_data =
@@ -1224,6 +1224,8 @@
 							formatter:'actions',
 							formatoptions:{
 								keys:true,
+								// baseLinkUrl: 'javascript:',
+								// showAction: "gotoNextPage();",
 								// delbutton: false,//disable delete button
 
 								delOptions:{recreateForm: true, beforeShowForm:beforeDeleteCallback},
@@ -1300,6 +1302,10 @@
 							.addClass('ace ace-switch ace-switch-5')
 							.after('<span class="lbl"></span>');
 					}, 0);
+				}
+
+				function gotoNextPage(){
+					alert('clicked');
 				}
 				//enable datepicker
 				function pickDate( cellvalue, options, cell ) {
